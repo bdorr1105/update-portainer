@@ -11,6 +11,12 @@ Do not just execute this script in your environment, you can use it as a shell a
 ## How to Use This
 I recommend just git cloning the repo, changing directory into it and modifying the parts of the script that you need to for your environment. 
 
+## If you don't mind stoppong all your containers
+DO NOT USE the update-portainer-option2.sh
+
+## If you only want to stop Portainer
+Use the update-portainer-option2.sh
+
 ### Clone this repository to your local machine:
 `git clone https://github.com/bdorr1105/update-portainer.git`
 
