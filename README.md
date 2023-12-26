@@ -1,7 +1,7 @@
 # update-portainer
 Update Portainer docker container custom too my environment
 
-![Update Portainer](https://github.com/bdorr1105/update-portainer/assets/12386911/9919337a-a8c7-4df2-9c67-15f6cbbebdad)
+![Update Portainer](https://github.com/bdorr1105/update-portainer/assets/12386911/3ef8b651-ebfe-4db2-a062-1c1ebcd6bf35)
 
 |:exclamation:  Warning   This script will stop every running container, if you do not want to do that, please modify. Use at your own risk!|
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
