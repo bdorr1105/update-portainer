@@ -38,7 +38,7 @@ if [[ $EUID -ne 0 ]]; then
 fi
 
 # Stop the Portainer container if it is running
-portainer_id=$(docker ps -q -f name=portainer)
+portainer_id=$(docker ps -q -f name=portainer | xargs docker stop -t 30)
 if [ -n "$portainer_id" ]; then
     echo "Stopping Portainer container..."
     docker stop $portainer_id || { echo "Failed to stop the Portainer container. Exiting script."; exit 1; }
