@@ -3,13 +3,13 @@ Update Portainer docker container custom too my environment
 
 ![Update Portainer](https://github.com/bdorr1105/update-portainer/assets/12386911/9919337a-a8c7-4df2-9c67-15f6cbbebdad)
 
-|:exclamation:  Warning   Use at your own risk!|
+|:exclamation:  Warning   This script will stop every running container, if you do not want to do that, please modify. Use at your own risk!|
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 
 Do not just execute this script in your environment, you can use it as a shell and tweak it to adapt it to your environment
 
 ## How to Use This
-You can view the changes you have to make which are towards the top of the script and then in the DNS section about midway down and modify your files on box. It would be wise to make a backup before implementing any of these changes. If you opt to not edit the local files on box, still make a backup so you have the original. Then you will paste these in the perspective directories. You can also git clone the repo or download direct. Whatever you prefer.
+I recommend just git cloning the repo, changing directory into it and modifying the parts of the script that you need to for your environment. 
 
 ### Clone this repository to your local machine:
 `git clone https://github.com/bdorr1105/update-portainer.git`
